@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  background-color: #ace5ff;
+}
+.site-title {
+  text-align: center;
+  color: #2e279d;
+}
+.form {
+  width: 500px;
+  margin: 10px auto;
+  border: 2px solid #2e279d;
+  border-radius: 5px;
+}
+.todo-input,
+.checkbox {
+  width: 89%;
+  padding: 10px;
+}
+
+.list {
+  width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.title {
+  margin: 0;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #2e279d;
+  padding: 10px;
+  color: #2e279d;
+}
+.check:checked ~ .title {
+  text-decoration: line-through;
+  color: red;
+}
