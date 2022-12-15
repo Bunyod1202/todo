@@ -17,10 +17,12 @@ body{
 }
 .todo-input,
 .checkbox {
-  width: 89%;
+  width: 100%;
   padding: 10px;
 }
-
+.lorems {
+  width: 89%;
+}
 .list {
   width: 900px;
   margin: 0 auto;
