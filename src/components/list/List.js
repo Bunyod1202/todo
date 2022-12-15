@@ -1,4 +1,4 @@
-import { Item } from "../item/Item";
+import { Item } from "../item";
 import "./list.scss";
 
 export const List = ({todo,setTodo,setEdits,editTodo}) => {

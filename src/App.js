@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "./assets/styles/main.scss"
-import { EditForm } from "./components/editform/EditForm";
-import { Form } from "./components/form/form";
-import { List } from "./components/list/List";
+import { EditForm } from "./components/editform";
+import { Form } from "./components/form";
+import { List } from "./components/list";
 import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
