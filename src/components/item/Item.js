@@ -8,11 +8,13 @@ export const Item = ({todo,setTodo,setEdits, item ,editTodo}) => {
 
   const remuveTodo = (item) => {
     setTodo(todo.filter(itm => {
-       toast.error(`${itm.text} Delite sucsses !`, {
-      position: toast.POSITION.TOP_RIGHT
-    });
+  
       return itm.id !== item.id
     }))
+
+    toast.error(`${item.text} Delite sucsses !`, {
+      position: toast.POSITION.TOP_RIGHT
+    });
    
 
     

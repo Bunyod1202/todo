@@ -31,7 +31,7 @@ const edTodo = (item) => {
     console.log(editor);
   
     if (itm.id === item.id) {
-      toast.success(`${itm.text} Edit success !`, {
+      toast.success(`${item.text} Edit success !`, {
         position: toast.POSITION.TOP_RIGHT
       });
       return {
@@ -64,11 +64,15 @@ const edTodo = (item) => {
         editTodo={editTodo} />
       <ToastContainer/>
 {/* Same as */}
-      <ToastContainer
-        autoClose={2000}
-      />
+
     </div>
   );
 }
 
+<ToastContainer
+autoClose={2000}
+/>
+
 export default App;
+
+
